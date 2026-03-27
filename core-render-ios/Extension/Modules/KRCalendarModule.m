@@ -93,7 +93,7 @@
         }
         NSString *dateString = [NSString stringWithFormat:@"%04ld-%02ld-%02ld %02ld:%02ld:%02ld.%03ld",
                                 year, month, day, hour, minute, second, millisecond];
-        return [self dateFromString:dateString format:@"YYYY-MM-dd HH:mm:ss.SSS"];
+        return [self dateFromString:dateString format:@"yyyy-MM-dd HH:mm:ss.SSS"];
     }
     
     if (![opt isEqualToString:@"add"]) {
